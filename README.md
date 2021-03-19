@@ -4,11 +4,11 @@ During work
 # Functions
 
 * Global
-* * botList ``` $ts3ab->botList(); - List of bots, $ts3ab->botList(1);```  - Bots list + all informations
+ * botList ``` $ts3ab->botList(); - List of bots, $ts3ab->botList(1);```  - Bots list + all informations
 
 * Instance
-* * botInfo  ``` $ts3ab->bot(1)->botInfo();  ``` - Info about bot
-* * play ``` $ts3ab->bot(1)->play(<url/patch>); ```
+ * botInfo  ``` $ts3ab->bot(1)->botInfo();  ``` - Info about bot
+ * play ``` $ts3ab->bot(1)->play(<url/patch>); ```
 
 # Examples 
 
