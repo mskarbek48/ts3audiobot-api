@@ -1,8 +1,7 @@
 <?php
 
-namespace Lukieer\TS3AudioBot\Api\Instance;
+namespace Lukieer\TS3AudioBot\Api;
 
-use Lukieer\TS3AudioBot\Api\Bot;
 
 class Instance {
 
@@ -10,7 +9,7 @@ class Instance {
 
     public function __construct(string $url, string $login, string $password)
     {
-        $this->auth(['url' => $url, 'login' => $login, 'password' => $password]);
+        $this->auth = ['url' => $url, 'login' => $login, 'password' => $password];
     }
     public function bot(int $id)
     {
