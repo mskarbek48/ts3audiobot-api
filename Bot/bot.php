@@ -1,9 +1,6 @@
 <?php
 
-namespace Lukieer\TS3AudioBot\Api\Bot;
-
-
-use Lukieer\TS3AudioBot\Api\Request;
+namespace Lukieer\TS3AudioBot\Api;
 
 class bot extends request {
 
@@ -18,7 +15,7 @@ class bot extends request {
 
     public function play($string)
     {
-        parent::request($this->auth, $this->id, '(/play/'.urlencode($string));
+        return parent::request($this->auth, $this->id, '(/play/'.urlencode($string));
     }
 
 }
